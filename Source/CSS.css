@@ -1,0 +1,119 @@
+body {
+    font-family:Karla;
+    background-color: #ffe4e9;
+}
+h1 {
+    font-family: Pacifico;
+    text-align: center;
+    background-color: #ffb3b3;
+    border: 1px solid #ffe4e9;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.8);
+}
+h2,h3 {
+    font-family: chewy;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    font-weight: lighter;
+}
+aside {
+    border: 1px solid black;
+    background-color: #fff0f6;
+    border-radius: 10px;
+    padding: 20px;
+    width: 20%;
+    overflow: auto;
+    margin: 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.8);
+}
+#flex {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;    
+    align-items: flex-start;
+    justify-content: center;
+}
+#pembuka {
+    flex: 1;
+    background-color: #faf3e0;
+}
+#inti {
+    background-color: #e6e6fa;
+}
+#inti2 {
+    background-color: #d0eaff;
+}
+#penutupan {
+    background-color: #e0f7f5;
+}
+.border {
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 900px;
+    margin: 30px auto;
+    overflow: auto;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.8);
+}
+.gambar {
+    margin: 20px auto;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,1);
+}
+th, td {
+    border:1px solid black;
+    padding: 7px;
+}
+table {
+    display: flex; 
+    justify-content: center;
+}
+.tda {
+    width: 600px;
+}
+td {
+    text-align: left;
+}
+tr {
+    background-color: #e8e8e8;
+}
+tr:hover {
+    background-color: #c05a84;
+}
+.stiker {
+    width: 100%;
+    max-width: 150px;
+}
+.a {
+    text-align: center;
+}
+#a1 {
+    display: inline-block;
+    border: 1px solid #ffe4e9;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #f9c6c9;
+    color: black;
+    box-shadow: 0 0 8px;
+}
+a {
+    text-decoration: none;
+}
+#a1:hover {
+    background-color:#f08080 ;
+}
+#a1:active {
+    background-color: #e0f7f5;
+    border-color: black;
+}
